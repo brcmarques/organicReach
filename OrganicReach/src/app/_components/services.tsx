@@ -1,42 +1,42 @@
 "use client"
 
 import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, icons, Clock } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Megaphone , Users , TrendingUp   , Zap , icons, Clock } from 'lucide-react'
 import { WhatsappLogo } from '@phosphor-icons/react'
 
 
 const services = [
     {
-        title: "Banho & Tosa",
-        description: "Inclui banho com produtos especificos para o tipo de pelagem e pele do animal, corte de unha, limpeza das orelhas e tosa personalizada (higienica ou estilizada).",
+        title: "Publicidade Autêntica",
+        description: "O grande diferencial do OrganicReach Rewards é transformar seus próprios clientes em divulgadores da sua marca, sem precisar pagar por anúncios ou investir em estratégias complicadas de marketing.",
         duration: "1h",
         price: "$50",
-        icon: <Scissors/>,
-        linkText: "Olá, vi no site sobre Banho e tosa e gostaria de mais informacoes."
+        icon: <Megaphone />,
+        linkText: "Olá, vi no site sobre Publicidade Autêntica e gostaria de mais informções."
     },
     {
-        title: "Consulta veterinaria",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quam alias nostrum, placeat expedita deserunt odit minima fugiat. Esse inventore atque minima in vel corrupti? Laboriosam eligendi cumque nemo corporis?",
+        title: "Criação de uma comunidade online",
+        description: "Seus clientes divulgam sua marca espontaneamente ao postar sobre sua experiência, atraindo novos visitantes sem custo extra para você.",
         duration: "1h",
         price: "$45",
-        icon: <Syringe/>,
-        linkText: "Olá, vi no site sobre consulta veterinaria e gostaria de mais informacoes."
+        icon: <Users />,
+        linkText: "Olá, vi no site sobre Criação de uma comunidade online e gostaria de mais informções."
     },
     {
-        title: "Táxi Pet",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magni consequuntur officia cumque. Repellat sint quas voluptas saepe excepturi similique consequuntur quod incidunt. Dolor est omnis odio explicabo eaque quia.",
+        title: "Aumenta o engajamento",
+        description: "Cada postagem gera curtidas, comentários e compartilhamentos, ajudando seu negócio a crescer organicamente nas redes sociais e atingir um público maior.",
         duration: "2h",
         price: "$80",
-        icon: <CarTaxiFront/>,
-        linkText: "Olá, vi no site sobre Taxi Pet e gostaria de mais informacoes."
+        icon: <TrendingUp   />,
+        linkText: "Olá, vi no site sobre Aumenta o engajamento e gostaria de mais informções."
     },
     {
-        title: "Hotel para pets",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quod praesentium optio saepe perspiciatis! Accusantium fuga excepturi amet. Sapiente soluta fugit labore perferendis consequatur mollitia dolorum, illo nesciunt culpa.",
+        title: "Rápido e fácil de configurar",
+        description: "Basta definir as regras da campanha e acompanhar as postagens. Sem burocracia, sem complicações—comece a ganhar visibilidade imediatamente!",
         duration: "1h",
         price: "$60",
-        icon: <Hotel/>,
-        linkText: "Olá, vi no site sobre Hotel para pets e gostaria de mais informacoes."
+        icon: <Zap />,
+        linkText: "Olá, vi no site sobre ser Rápido e fácil de configurar e gostaria de mais informções."
     },
 
 ]
@@ -63,11 +63,11 @@ export function Services(){
         <section 
             data-aos="zoom-out-top"
             data-aos-delay="500"
-            className="bg-white py-16">
+            className="bg-[#ddc8b8] py-16">
             <div className="container mx-auto px-4">
 
                 
-                <h2 className="text-4xl font-bold mb-12">Servicos</h2>
+                <h2 className="text-4xl font-bold mb-12">Benefícios para o Negócio</h2>
 
                 <div className="relative">
 
@@ -75,7 +75,7 @@ export function Services(){
                         <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
-                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#6a380c] text-white p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex-1 flex items-start justify-between'>
                                             <div className='flex gap-3'>
                                                 <span className='text-3xl'>{item.icon}</span>
@@ -86,11 +86,8 @@ export function Services(){
                                             </div>
                                         </div>
 
-                                        <div className='border-t border-gray-700 pt-4 flex items-center justify-between'>
-                                            <div className='flex items-center gap-2 text-sm'>
-                                                <Clock className='w-4 h-4'/>
-                                                <span>{item.duration}</span>
-                                            </div>
+                                        <div className='border-t border-gray-700 pt-4 flex items-center justify-center'>
+                                            
 
                                             <a 
                                                 target='_blank'
