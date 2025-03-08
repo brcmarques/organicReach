@@ -83,8 +83,7 @@ export function Signature(){
                                                             href='#'
                                                             className=" hover:bg-yellow-600 bg-yellow-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                                                         >
-                                                        <Crown className='w-5 h-5'/>
-                                                        Experimente GRÁTIS por <b className="bg-green-500 text-black px-2 py-1 rounded-md">6 meses</b> 
+                                                        Venha fazer parte!!
                                                             
                                                         </a>
             
