@@ -57,7 +57,7 @@ export function Signature(){
                                     <div className='flex'>
                                         {services.map((item, index) => (
                                             <div key={index} className='flex-[0_0_100%] min-w-0 px-3 justify-center'>
-                                                <article className='bg-[#6a380c] text-white p-6 space-y-4 h-full w-[500px] flex flex-col'>
+                                                <article className='bg-[#6a380c] text-white p-6 space-y-4 h-full flex flex-col'>
                                                     <div className=' flex flex-col items-center text-center space-y-4'>
                                                         <div className=' align-center justify-center relative w-24 h-24'>
 
