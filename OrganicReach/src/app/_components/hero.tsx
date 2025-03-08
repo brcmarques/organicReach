@@ -1,12 +1,12 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import hero1 from '../../../public/hero1.jpg'
+import cabecalho from '../../../public/cabecalho.jpg'
 import Image from 'next/image'
 import { Crown } from 'lucide-react'
 
 
 export function Hero(){
     return(
-        <section className="relative text-white overflow-hidden bg-[url('/hero1.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-40">
+        <section className="relative text-white overflow-hidden bg-[url('/cabecalho.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-40">
 
             
             <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
