@@ -55,7 +55,7 @@ export function Testimonials(){
 
     return(
         <section
-            className="bg-[#ecf2fb] py-16">
+            className="bg-[#ffffff] py-16">
             <div 
                 data-aos="zoom-out-top"
                 className="container mx-auto px-4">

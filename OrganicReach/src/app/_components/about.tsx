@@ -9,7 +9,7 @@ import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 export function About() {
     return(
-        <section className="bg-[#ecf2fb] py-16">
+        <section className="bg-[#ffffff] py-16">
             <div className="container mx-auto px-4">
             <h2 className="text-5xl font-bold text-center mb-12" 
                 data-aos="zoom-out-top"
