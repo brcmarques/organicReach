@@ -43,7 +43,7 @@ export function Signature(){
         <section 
             data-aos="zoom-out-top"
             data-aos-delay="500"
-            className="bg-[#ddc8b8] py-16">
+            className="bg-[#ecf2fb] py-16">
             <div 
                             data-aos="zoom-out-top"
                             className="container mx-auto px-4 ">
@@ -57,7 +57,7 @@ export function Signature(){
                                     <div className='flex'>
                                         {services.map((item, index) => (
                                             <div key={index} className='flex-[0_0_100%] min-w-0 px-3 justify-center'>
-                                                <article className='bg-[#6a380c] text-white p-6 space-y-4 flex flex-col'>
+                                                <article className='bg-[#2c6ed2] text-black p-6 space-y-4 flex flex-col'>
                                                     <div className=' flex flex-col items-center text-center space-y-4'>
                                                         <div className=' align-center justify-center relative w-24 h-24'>
 
@@ -65,13 +65,13 @@ export function Signature(){
                                                         </div>
                                                         
 
-                                                        <div className='bg-[#db8c29] bg-opacity-50 p-4 rounded-2xl'>
-                                                        <p className='text-gray-200 select-none text-2xl'>{item.title}</p>
+                                                        <div className='bg-[#2c6ed2] p-4 rounded-2xl'>
+                                                        <p className='text-white select-none text-2xl font-bold'>{item.title}</p>
             
                                                         <div>
-                                                            <p className='text-sm text-gray-400'>{item.description1}</p>
-                                                            <p className='text-sm text-gray-400'>{item.description2}</p>
-                                                            <p className='text-sm text-gray-400'>{item.description3}</p>
+                                                            <p className='text-sm text-white'>{item.description1}</p>
+                                                            <p className='text-sm text-white'>{item.description2}</p>
+                                                            <p className='text-sm text-white'>{item.description3}</p>
                                                         </div>
 
                                                         
@@ -81,7 +81,7 @@ export function Signature(){
                                                             data-aos="zoom-out-top"
                                                             data-aos-delay="500"
                                                             href='#'
-                                                            className=" hover:bg-red-600 bg-red-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+                                                            className=" hover:bg-yellow-600 bg-yellow-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                                                         >
                                                         <Crown className='w-5 h-5'/>
                                                         Experimente GRÁTIS por <b className="bg-green-500 text-black px-2 py-1 rounded-md">6 meses</b> 

@@ -1,14 +1,12 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import hero from '../../../public/hero.jpg'
-import dogImg from '../../../public/hero-dog.webp'
+import hero1 from '../../../public/hero1.jpeg'
 import Image from 'next/image'
-import catImg from '../../../public/cat-hero.png'
 import { Crown } from 'lucide-react'
 
 
 export function Hero(){
     return(
-        <section className="relative text-white overflow-hidden bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-40">
+        <section className="relative text-white overflow-hidden bg-[url('/hero1.jpeg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-40">
 
             
             <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
@@ -31,7 +29,7 @@ export function Hero(){
                                 data-aos="zoom-out-top"
                                 data-aos-delay="500"
                                 href='#'
-                                className=" hover:bg-red-600 bg-red-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+                                className=" hover:bg-opacity-100 bg-[#2c6ed2] bg-opacity-80 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                             >
                             <Crown className='w-5 h-5'/>
                             Experimente GRÁTIS por <b className="bg-green-500 text-black px-2 py-1 rounded-md">6 meses</b> 

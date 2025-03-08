@@ -13,25 +13,25 @@ import Image from 'next/image'
 
 const testimonials = [
     {
-        content: "Depois que aderi ao sistema OrganicReach Rewards, a quantidade de alunos frango na minha academia aumentou muito",
+        content: "\"Depois que aderi ao sistema OrganicReach Rewards, a quantidade de alunos frango na minha academia aumentou muito\"",
         author: "Fulano Don Deacadmia",
         role: "Dono da academia No Pain but Gain",
         image: cariri
     },
     {
-        content: "Tchê da nem pra dar conta do tanto de X Salada que sai depois que aderi ao ORW, bando de pobre, nem pra comprar um X Filé",
+        content: "\"Tchê da nem pra dar conta do tanto de X Salada que sai depois que aderi ao ORW, bando de pobre, nem pra comprar um X Filé\"",
         author: "Juriscleuson Das Comida",
         role: "Dono do Bicão X Podrão do gordo, fica no novo Milênio",
         image: gordo
     },
     {
-        content: "Eu não tenho nenhuma empresa, mas adoro ver as postagens dos meus amigos para saber onde comer",
+        content: "\"Eu não tenho nenhuma empresa, mas adoro ver as postagens dos meus amigos para saber onde comer\"",
         author: "Marleia Boca Leve",
         role: "Uma gorda qualquer que eu achei",
         image: gorda
     },
     {
-        content: "Mudou nada sapoha, eu já vendia muito antes e continuo vendendo muito agora, não assinem, não indico!!!!",
+        content: "\"Mudou nada sapoha, eu já vendia muito antes e continuo vendendo muito agora, não assinem, não indico!!!!\"",
         author: "Vitão Barão do Café",
         role: "Rei do café da Região sul do continente Americano",
         image: vitao
@@ -55,7 +55,7 @@ export function Testimonials(){
 
     return(
         <section
-            className="bg-[#a6815b] py-16">
+            className="bg-[#ecf2fb] py-16">
             <div 
                 data-aos="zoom-out-top"
                 className="container mx-auto px-4">
@@ -69,7 +69,7 @@ export function Testimonials(){
                         <div className='flex'>
                             {testimonials.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 px-3'>
-                                    <article className='bg-[#ddc8b8] text-black rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#2c6ed2] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex flex-col items-center text-center space-y-4'>
                                             <div className='relative w-24 h-24'>
                                                 <Image
@@ -81,7 +81,7 @@ export function Testimonials(){
                                                 />
                                             </div>
 
-                                            <p className='text-black-900 select-none'>{item.content}</p>
+                                            <p className='text-black-900 select-none text-2xl text-black'>{item.content}</p>
 
                                             <div>
                                                 
