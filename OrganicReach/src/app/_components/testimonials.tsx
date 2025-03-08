@@ -69,7 +69,7 @@ export function Testimonials(){
                         <div className='flex'>
                             {testimonials.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 px-3'>
-                                    <article className='bg-[#2c6ed2] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#495168] bg-opacity-80 text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex flex-col items-center text-center space-y-4'>
                                             <div className='relative w-24 h-24'>
                                                 <Image

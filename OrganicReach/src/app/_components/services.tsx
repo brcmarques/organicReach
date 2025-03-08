@@ -75,7 +75,7 @@ export function Services(){
                         <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className='flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
-                                    <article className='bg-[#2c6ed2] text-white p-6 space-y-4 h-full flex flex-col'>
+                                    <article className='bg-[#495168] bg-opacity-80 text-white p-6 space-y-4 h-full flex flex-col'>
                                         <div className='flex-1 flex items-start justify-between'>
                                             <div className='flex gap-3'>
                                                 <span className='text-3xl'>{item.icon}</span>
@@ -92,7 +92,7 @@ export function Services(){
                                             <a 
                                                 target='_blank'
                                                 href={`https://wa.me/5553991971031?text=Olá vim pelo site e gostaria de mais informacoes sobre ${item.title}!`} 
-                                                className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'>
+                                                className='flex items-center justify-center gap-2 hover:bg-opacity-100 bg-[#2c6ed2] bg-opacity-0 px-4 py-1 rounded-md duration-300'>
                                                 <WhatsappLogo className='w-5 h-5'/>
                                                 Entrar em Contato
                                             </a>
