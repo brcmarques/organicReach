@@ -60,7 +60,7 @@ export function Footer(){
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Suporte</h3>
                         <a target='_blank' href="https://www.instagram.com/brcmarques/"><img className='hover:w-[210px] w-[200px] h-[200px] rounded-full' src="suporte.png" alt="" />
-                        <p className='hover:text-2xl font-bold'>O melhorzinho</p></a>
+                        </a>
                     </div>
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>Contato</h3>

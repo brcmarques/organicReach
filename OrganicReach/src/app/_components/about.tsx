@@ -1,5 +1,5 @@
 import Image from "next/image"
-import organicReach3 from '../../../public/Organicreach3.png'
+import organicReach4 from '../../../public/Organicreach4.png'
 import homemimg from '../../../public/homem.png'
 import { Check, MapPin } from "lucide-react"
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
@@ -26,8 +26,8 @@ export function About() {
                         <div className="relative w-full h-[700px] quality overflow-hidden" data-aos="fade-up-right"
                         data-aos-delay="500">
                             <Image
-                                src={organicReach3}
-                                alt="Foto do cachorro"
+                                src={organicReach4}
+                                alt="Foto ilustrando o organicReach "
                                 fill
                                 quality={100}
                                 priority

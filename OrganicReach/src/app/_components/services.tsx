@@ -63,11 +63,11 @@ export function Services(){
         <section 
             data-aos="zoom-out-top"
             data-aos-delay="500"
-            className="bg-[#ddc8b8] py-16">
+            className="bg-[url('/fundo2.jpg')] bg-cover bg-center bg-no-repeat py-16">
             <div className="container mx-auto px-4">
 
                 
-                <h2 className="text-4xl font-bold mb-12">Benefícios para o Negócio</h2>
+                <h2 className="text-4xl font-bold mb-12 text-black drop-shadow-[2px_2px_0px_white]">Benefícios para o Negócio</h2>
 
                 <div className="relative">
 

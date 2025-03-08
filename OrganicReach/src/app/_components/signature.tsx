@@ -69,9 +69,10 @@ export function Signature(){
                                                         <p className='text-white select-none text-2xl font-bold'>{item.title}</p>
             
                                                         <div>
-                                                            <p className='text-sm text-white'>{item.description1}</p>
+                                                            <p className='text-sm text-white underline underline-offset-4'>{item.description1}</p>
                                                             <p className='text-sm text-white'>{item.description2}</p>
-                                                            <p className='text-sm text-white'>{item.description3}</p>
+                                                            <p className='text-sm text-white '>{item.description3}</p>
+                                                            
                                                         </div>
 
                                                         
