@@ -23,7 +23,7 @@ export function About() {
                         className="relative" 
                     >
 
-                        <div className="relative w-full h-[700px]  overflow-hidden" data-aos="fade-up-right"
+                        <div className="relative w-full h-[700px] quality overflow-hidden" data-aos="fade-up-right"
                         data-aos-delay="500">
                             <Image
                                 src={organicReach3}
